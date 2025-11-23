@@ -1,9 +1,9 @@
 spring:
   application:
-    name: validacion-service
+    name: registro-service
 
 server:
-  port: 8010
+  port: 8020
 
 eureka:
   instance:
@@ -24,6 +24,6 @@ management:
 
 info:
   app:
-    name: EurekaClient validacion-service
+    name: EurekaClient registro-service
   java:
     version: ${java.version}
